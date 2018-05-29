@@ -38,6 +38,7 @@ const Artist = ({artist, artistActive}) => (
               </div>
             )
           }
+          else return null;
         })}
       </div>
     </div>
