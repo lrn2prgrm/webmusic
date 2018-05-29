@@ -1,0 +1,86 @@
+body {
+  background-color: #1d1d1d;
+  color: palevioletred;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-img {
+  background: linear-gradient(rgba(99, 71, 97, 0.479), rgba(27, 27, 27, 0.336)), url(../assets/images/bg-music.jpg) center center fixed;
+}
+
+.pink {
+  color: palevioletred;
+}
+
+.subtitle {
+  font-size: 1.7em;
+}
+
+.list-group-item, .card {
+  background-color: rgba(107, 41, 93, 0.123);
+}
+
+.border-success {
+  border-color: palevioletred!important;
+}
+
+.text-success {
+  color: palevioletred!important;
+}
+
+h5.card-title {
+  color: #fff!important;
+}
+
+.votes {
+  color: #fff!important;
+}
+
+.border-votes {
+  border: 1px solid palevioletred;
+  cursor: pointer;
+}
+
+.img-box {
+  width: 3em;
+}
+
+.img-share {
+  width: 2.5em;
+}
+
+.font-small{
+  font-size: 0.65em;
+}
+
+.nav-bar-header {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron-fluid {
+  color: #fff;
+  height: 60vh;
+  font-family: 'Nova Mono', monospace;
+}
+
+footer {
+  height: 25vh;
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+.slick-next {
+  right: -4px!important;
+}
+
+.slick-prev {
+  left: -4px!important;
+}
+
+@media (min-width: 768px){
+  .img-box {
+    width: 5em;
+  }
+} 
