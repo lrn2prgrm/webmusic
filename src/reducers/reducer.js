@@ -2,12 +2,12 @@ import { actionTypes } from '../actions/actions'
 
 const artist = {
   list: [
-    {id: 'a', name: 'Adele', biography: 'Adele Laurie Blue Adkins (Tottenham, Londres, Inglaterra, 5 de mayo de 1988), conocida simplemente como Adele, es una cantante y compositora británica.', image: './assets/images/adele.jpg', songs: ['Hello', 'Someone like you', 'Only one']},
-    {id: 'b', name: 'Bruno Mars', biography: 'Peter Gene Hernandez, conocido como Bruno Mars, es un cantante, compositor, productor musical y coreógrafo estadounidense. ', image: './assets/images/brunomars.jpg', songs: ['Finese', '24K magic']},
-    {id: 'c', name: 'Lana del Rey', biography: 'Elizabeth Woolridge Grant ​, más conocida por su nombre artístico Lana Del Rey, es una cantante, actriz y compositora estadounidense. Es reconocida también por su estilo vintage.', image: './assets/images/lanadelrey.jpg', songs: ['Summertime sadness', 'Born to die', 'Video Games']},
-    {id: 'd', name: 'Oasis', biography: 'Oasis fue una banda de Britpop británica formada en Mánchester en 1991. En sus inicios, conocidos como The Rain.', image: './assets/images/oasis.jpg', songs: ['Wonderwall', 'Supersonic', 'Stand by me']},
-    {id: 'e', name: 'Green day', biography: 'Green Day es una banda estadounidense de pop punk​​​ y punk rock​​ integrada inicialmente por tres miembros: Billie Joe Armstrong, Mike Dirnt y Tré Cool.', image: './assets/images/greenday.jpg', songs: ['21 Guns', 'American Idiot', 'Holiday']},
-    {id: 'f', name: 'The Cranberries', biography: 'The Cranberries es una banda irlandesa de rock, formada en Limerick durante 1989 bajo el nombre de The Cranberry Saw Us, denominación cambiada, más tarde, por la vocalista Dolores O-Riordan.', image: './assets/images/the-cranberries.jpg', songs:['Dreams', 'Zombie', 'Linger']}
+    {id: 'a1', name: 'Adele', biography: 'Adele Laurie Blue Adkins (Tottenham, Londres, Inglaterra, 5 de mayo de 1988), conocida simplemente como Adele, es una cantante y compositora británica.', image: './assets/images/adele.jpg', songs: ['Hello', 'Someone like you', 'Only one']},
+    {id: 'b2', name: 'Bruno Mars', biography: 'Peter Gene Hernandez, conocido como Bruno Mars, es un cantante, compositor, productor musical y coreógrafo estadounidense. ', image: './assets/images/brunomars.jpg', songs: ['Finese', '24K magic']},
+    {id: 'c6', name: 'Lana del Rey', biography: 'Elizabeth Woolridge Grant ​, más conocida por su nombre artístico Lana Del Rey, es una cantante, actriz y compositora estadounidense. Es reconocida también por su estilo vintage.', image: './assets/images/lanadelrey.jpg', songs: ['Summertime sadness', 'Born to die', 'Video Games']},
+    {id: 'd6', name: 'Oasis', biography: 'Oasis fue una banda de Britpop británica formada en Mánchester en 1991. En sus inicios, conocidos como The Rain.', image: './assets/images/oasis.jpg', songs: ['Wonderwall', 'Supersonic', 'Stand by me']},
+    {id: 'e7', name: 'Green day', biography: 'Green Day es una banda estadounidense de pop punk​​​ y punk rock​​ integrada inicialmente por tres miembros: Billie Joe Armstrong, Mike Dirnt y Tré Cool.', image: './assets/images/greenday.jpg', songs: ['21 Guns', 'American Idiot', 'Holiday']},
+    {id: 'f1', name: 'The Cranberries', biography: 'The Cranberries es una banda irlandesa de rock, formada en Limerick durante 1989 bajo el nombre de The Cranberry Saw Us, denominación cambiada, más tarde, por la vocalista Dolores O-Riordan.', image: './assets/images/the-cranberries.jpg', songs:['Dreams', 'Zombie', 'Linger']}
   ],
   popular: {
     songs: [
@@ -33,7 +33,7 @@ const artist = {
 
 const init_state = {
   show : artist,
-  activeArtist: [{id: 'a', name: 'Adele', biography: 'Adele Laurie Blue Adkins (Tottenham, Londres, Inglaterra, 5 de mayo de 1988), conocida simplemente como Adele, es una cantante y compositora británica.', image: './assets/images/adele.jpg', songs: ['Hello', 'Someone like you', 'Only one']}]
+  activeArtist: [{id: 'a1', name: 'Adele', biography: 'Adele Laurie Blue Adkins (Tottenham, Londres, Inglaterra, 5 de mayo de 1988), conocida simplemente como Adele, es una cantante y compositora británica.', image: './assets/images/adele.jpg', songs: ['Hello', 'Someone like you', 'Only one']}]
 }
 
 export default (state = init_state , action) => {

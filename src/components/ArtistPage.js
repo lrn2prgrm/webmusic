@@ -20,7 +20,7 @@ const Artist = ({artist, artistActive}) => (
       </div>
       <div className="col-12 col-md-9">
         {artistActive.map((val) => {
-          if(val != undefined) {
+          if(val !== undefined) {
             return (
               <div className="row">
                 <div className="col-12 col-md-9">
@@ -30,8 +30,8 @@ const Artist = ({artist, artistActive}) => (
                   <h3>{val.name}</h3>
                   <p>{val.biography}</p>
                   <ul>
-                    {val.songs.map((elm) => (
-                      <li>{elm}</li>
+                    {val.songs.map((elm, i) => (
+                      <li key={elm.id}>{elm}</li>
                     ))}
                   </ul>
                 </div>

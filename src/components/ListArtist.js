@@ -44,10 +44,10 @@ const settings = {
 const List = ({data}) => (
   <div>
       <Slider {...settings}>
-        {data.list.map(ele => (
+        {data.list.map((ele, i) => (
           <div className="col">
             <Img
-              key={ele.name} {...ele} 
+              key={i} {...ele} 
             />
           </div>
         ))}
