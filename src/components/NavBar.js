@@ -5,7 +5,7 @@ import NewReleases from './NewReleasesPage';
 import TextHeader from './Text';
 import TopCharts from './TopChartPage';
 import Home from './Main';
-import { BrowserRouter as Router, Link, Switch, Route, NavLink, Redirect, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Switch, Route, Redirect } from 'react-router-dom';
 
 const NavBar = () => (
   <Router>

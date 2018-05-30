@@ -51,6 +51,7 @@ export default (state = init_state , action) => {
               songs: val.songs
             }
           }
+          else return null;
         })
       };
       break;
